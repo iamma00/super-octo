@@ -1,0 +1,27 @@
+Day 3: Conditionals (if-else, switch)
+Objective: Implement decision-making logic to make programs responsive to different conditions, essential for branching code paths.
+
+Theory (1.5 hours):
+if(condition) { code; } else if(other) { } else { }.
+Operators: Logical && || !; Comparison == != > < >= <=.
+switch(var) { case value: code; break; default: code; }.
+Nesting: If inside if for complex checks.
+Read: GeeksforGeeks "Decision Making in C++" (if-else and switch sections, all examples).
+Video: freeCodeCamp "If Else Statements in C++" (15 mins).
+Notes: Short-circuit evaluation in && (left first).
+
+Practice (2-3 hours):
+Program 1: Pos/neg/zero – Input num, if>0 "Positive". Approach: Nested if for zero.
+Program 2: Grade – Input score, A(90+), B(80-89), etc. Approach: else if chain.
+Program 3: Switch menu – Input 1-3 for add/sub/exit. Approach: switch on int choice.
+Full Problems:
+HackerRank: "Conditional Statements" – Approach: If for number classification; ways to deal: Handle 1-9 spelling.
+CodeChef: "Chef and Operators" (CHOPRT) – Approach: Compare two nums with > < =.
+LeetCode: "Determine if String Halves Are Alike" (but simplify to conditional count).
+
+Point-to-point: Combine with loops (e.g., repeat menu until exit).
+
+Homework/Review (30-45 minutes):
+Debug nested ifs; journal 3 learnings, 2 mistakes (e.g., "== vs = assignment").
+Solve: HackerRank "Pointer" intro (skip pointers, focus conditionals).
+Full details: Trace code execution with sample inputs.
