@@ -1,0 +1,39 @@
+Day 2: Input/Output and Simple Loops
+Objective: Master reading user input and displaying output, then use loops for repetition to handle multiple operations efficiently. This enables programs to process sequences of data.
+
+Theory: Input/Output (1 hour):
+Standard I/O: #include <iostream>, cin >> var; (input), cout << var << endl; (output with newline).
+Formatted I/O: scanf("%d", &intVar); and printf("%d\n", intVar); from #include <cstdio>—faster for contests.
+Optimization: Add ios_base::sync_with_stdio(false); cin.tie(NULL); at start of main() for faster cin/cout.
+Multiple I/O: cin >> a >> b >> c;; strings with spaces need getline(cin, str);.
+Read: GeeksforGeeks "Input Output in C++" (full, note differences between cin and scanf).
+Video: freeCodeCamp "Input and Output in C++" (10 mins).
+Point-to-point: Note scanf formats (%d int, %f float, %s string); & for address in scanf.
+
+Theory: Simple Loops (1 hour):
+for(int i=start; i<end; i++) { code; } – Fixed iterations.
+while(condition) { code; } – Condition-checked before.
+do { code; } while(condition); – Runs once, then checks.
+Control: break; to exit, continue; to skip.
+Read: GeeksforGeeks "Loops in C++" (examples of each).
+Video: freeCodeCamp "Loops in C++" (15 mins).
+Notes: Avoid infinite loops by ensuring condition changes (e.g., increment i).
+
+Practice (2-3 hours):
+Program 1: Basic I/O – "io.cpp": Read name (string), age (int), output formatted message. Approach: Use cin for both; deal with spaces in name using getline after cin (flush with cin.ignore()).
+Program 2: For loop numbers – Print 1 to 10. Approach: for(int i=1; i<=10; i++) cout << i;
+Program 3: While sum – Input N, sum 1 to N. Approach: int sum=0; while(i<=N) sum+=i++;
+Program 4: Even numbers – Print evens up to 20. Approach: for(i=2; i<=20; i+=2) cout << i;
+Program 5: Average of inputs – Read 5 numbers in loop, compute average. Approach: Use for loop, accumulate sum, divide by 5.0.
+Full Problems from Sites:
+HackerRank: "For Loop" – Approach: Loop from a to b, classify numbers (even/odd, spell small ones); ways to deal: Use if inside loop.
+LeetCode: "Print in Order" (but simplify to loop printing); Approach: Basic for.
+HackerRank: "Functions" intro (but focus on I/O part).
+
+Point-to-point: Test loops with break (e.g., exit early if sum >100); handle invalid input (e.g., non-number—note cin fails, clear with cin.clear()).
+
+Homework/Review (30-45 minutes):
+Rerun all programs with varied inputs; note loop behaviors (e.g., do-while vs while).
+Journal: 4 learnings (e.g., "scanf faster for large input"), 3 mistakes (e.g., "Infinite loop from no increment"), avoidance (e.g., "Trace loop with pen/paper").
+Solve: LeetCode "Fizz Buzz" (412) – Approach: Loop 1-100, if %3&&%5 "FizzBuzz", etc.; ways to deal: String concatenation.
+Full details: Spend time on one infinite loop debug; review all theory notes point-by-point.
