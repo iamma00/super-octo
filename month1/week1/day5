@@ -1,0 +1,19 @@
+Day 5: Functions Basics
+Objective: Break code into reusable functions for modularity.
+
+Theory (1.5 hours):
+int add(int a, int b) { return a+b; }.
+Pass by value/ref (& for ref).
+Read: GeeksforGeeks "Functions in C++".
+
+Practice (2-3 hours):
+Program 1: Add function.
+Program 2: Prime check.
+Program 3: Swap (by ref).
+Full Problems:
+HackerRank: "Functions" – Approach: Max of four; ways: Nested max calls.
+LeetCode: "Defanging an IP Address" (1108) – Function to replace.
+
+
+Homework/Review (30-45 minutes):
+Refactor prior code; journal scope issues.
