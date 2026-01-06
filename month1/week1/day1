@@ -1,1 +1,45 @@
+Day 1: Setting Up and Basic Variables/Data Types
+Objective: Install and configure your coding environment, understand how to store and manipulate basic data using variables and types. This builds the groundwork for all future coding by teaching data representation.
 
+Setup (30-45 minutes):
+Download and install VS Code from code.visualstudio.com.
+Install compiler: For Windows, download MinGW from mingw-w64.org and add to PATH; for Mac, use Xcode Command Line Tools (xcode-select --install); for Linux, install g++ via sudo apt install g++.
+Configure VS Code: Install "C/C++" extension by Microsoft; create a new file "hello.cpp" with code: #include <iostream> int main() { std::cout << "Hello World"; return 0; }.
+Test compilation: In terminal (integrated in VS Code), run g++ hello.cpp -o hello then ./hello. If errors, troubleshoot by searching "g++ not found" or watch a setup video.
+Point-to-point tips: Ensure PATH is set correctly (verify with g++ --version); use a simple folder structure for files (e.g., create a "cpp-practice" folder).
+
+Theory: Variables and Data Types (1-1.5 hours):
+Variables: Named memory locations to store data; must be declared before use.
+Data Types:
+int: Integers, e.g., 42, -7; 4 bytes, range -2147483648 to 2147483647.
+float: Single-precision floating-point, e.g., 3.14; less accurate for decimals.
+double: Double-precision floating-point, e.g., 3.1415926535; use for precise decimals.
+char: Single character, e.g., 'A'; enclosed in single quotes.
+string: Sequence of characters, e.g., "Hello"; requires #include <string>.
+bool: Boolean values, true (1) or false (0).
+
+Declaration and Initialization: type name = value; (e.g., int count = 0;).
+Constants: const type name = value; (unchangeable, e.g., const double PI = 3.14159;).
+Operators: Arithmetic (+, -, *, /, % for modulo).
+Read: GeeksforGeeks "C++ Data Types" (full section, note examples); "Variables in C++" (understand scope basics, but focus on local variables).
+Video: Watch freeCodeCamp "C++ Variables and Data Types" (15 mins).
+Notes: Take point-to-point notes, e.g., "Modulo %: 10 % 3 = 1; useful for remainders."
+
+Practice (2-3 hours):
+Program 1: Declare and print variables – Create "variables.cpp": Declare one of each type (int age=25; double height=5.9; etc.), use cout << "Age: " << age << endl; for output. Approach: Use separate lines for clarity; deal with issues by adding using namespace std;.
+Program 2: Arithmetic operations – "arithmetic.cpp": Declare two ints, perform + - * / %, output results. Approach: Handle division (use double for decimal results, e.g., static_cast<double>(a)/b); ways to deal: Check for divide-by-zero with if (b != 0).
+Program 3: Modulo and even/odd check – Input a number, use %2 to check even/odd, output message. Approach: Combine declaration and basic output.
+Program 4: Type conversion – "conversion.cpp": Convert int to double and vice versa, print. Approach: Use explicit casting like double d = static_cast<double>(intVar);.
+Program 5: Simple area calculator – Input radius (double), compute area = PI * r * r, output. Approach: Use const for PI; deal with input using cin.
+Full Problems from Sites:
+HackerRank: "Say 'Hello, World!' With C++" – Approach: Just output string; ways to deal: Ensure exact match for submission.
+HackerRank: "Input and Output" – Approach: Read three ints with cin >> a >> b >> c, output sum; ways to deal: Handle large inputs by using int (within range).
+LeetCode: "Add Two Integers" (problem 2235) – Approach: Function to return sum; ways to deal: Simple + operator.
+
+Point-to-point: For each program, test with 3 inputs (e.g., positive, negative, zero); debug compilation errors like missing headers.
+
+Homework/Review (30-45 minutes):
+Compile and run all 5 programs again; fix any runtime errors (e.g., overflow for large ints—note to use long long later).
+Journal: List 3-5 key learnings (e.g., "Variables must be declared with type"), 2 common mistakes (e.g., "Forgot to initialize variable, got garbage value"), and how to avoid them (e.g., "Always initialize to 0 or known value").
+Solve additional: HackerRank "Variable Sized Arrays" intro (but skip if advanced); review GeeksforGeeks examples.
+Full details: Spend 10 mins debugging one program intentionally broken (e.g., remove semicolon, note error message). Ensure you understand why code fails (e.g., undeclared variable causes compiler error).
