@@ -1,0 +1,27 @@
+Day 4: Loops (Advanced) and 1D Arrays
+Objective: Advance loop usage with nesting and introduce arrays for grouped data storage.
+
+Theory: Advanced Loops (45 minutes):
+Nested: for inside for (e.g., 2D patterns).
+Optimization: Minimize inner loop work.
+Read: GeeksforGeeks loops advanced examples.
+
+Theory: 1D Arrays (1 hour):
+int arr[5] = {1,2,3,4,5}; access arr[0]-arr[4].
+Iteration: for(int i=0; i<size; i++).
+Read: GeeksforGeeks "Arrays in C++".
+
+Practice (2-3 hours):
+Program 1: Multiplication table – Nested for.
+Program 2: Star pattern – Nested loops for triangle.
+Program 3: Array sum – Input size, elements, sum.
+Program 4: Max/min in array.
+Program 5: Reverse array.
+Full Problems:
+HackerRank: "Arrays Introduction" – Approach: Read n, array, reverse print; ways: Loop backward.
+LeetCode: "Running Sum of 1d Array" (1480) – Approach: Prefix sum loop.
+Codeforces: "Young Physicist" (69A) – Approach: Array of vectors, sum conditionals.
+
+
+Homework/Review (30-45 minutes):
+Journal errors (e.g., out-of-bounds); solve extra array problems.
