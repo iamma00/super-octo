@@ -1,1 +1,26 @@
+Day 2: Binary Search
+Objective: Learn efficient searching – crucial for problems with sorted data.
 
+Theory (1.5 hours):
+Linear search: O(n), bad for large n
+Binary search: O(log n) on sorted array
+std::lower_bound() and std::upper_bound()
+Implement binary search manually (important for understanding)
+Variants: Find first/last occurrence, minimum/maximum satisfying condition
+Read: GeeksforGeeks “Binary Search in C++ STL” and “Implement Binary Search”
+
+Practice (2–3 hours):
+Program 1: Manual binary search to find if element exists
+Program 2: Use lower_bound to find first >= x
+Program 3: Count occurrences of x using lower_bound and upper_bound
+Full Problems:
+Codeforces: 706B – “Interesting drink”
+Approach: Sort prices, then for each query use upper_bound to count how many ≤ m
+Ways to deal: Pre-sort, then binary search per query
+Codeforces: 1353B – “Two Arrays And Swaps” (binary search optional)
+LeetCode: “Binary Search” (704)
+
+
+Homework/Review:
+Draw binary search tree for array of 10 elements
+Journal: Difference between lower_bound and upper_bound
