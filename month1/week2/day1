@@ -1,1 +1,41 @@
+Day 1: Vectors – The Dynamic Array
+Objective: Master std::vector – the most important container in competitive programming (resizable, easy to use).
 
+Theory (1–1.5 hours):
+Why vectors? Unlike fixed arrays, vectors grow dynamically.
+Include: #include <vector>
+Declaration: vector<int> v; or vector<long long> v(n, 0); (size n, initialized to 0).
+Key operations:
+v.push_back(x); – add to end
+v.pop_back(); – remove last
+v.size(); – current size
+v.empty(); – check empty
+Access: v[i] (0-based), v.front(), v.back()
+Iteration: for-loop, range-based for(for(auto &x : v)), iterators
+v.clear();, v.resize(n);
+
+Read: GeeksforGeeks “Vector in C++ STL” (full article with examples).
+Video: The Cherno “C++ Vectors” or freeCodeCamp segment (15–20 mins).
+
+Practice (2–3 hours):
+Program 1: Basic vector operations – Declare vector, push 5 numbers, print size and elements.
+Program 2: Read n, then read n integers into vector, output in reverse.
+Program 3: Find maximum element in vector (use loop, then try *max_element(v.begin(), v.end())).
+Program 4: Sum of vector elements using range-based for.
+Program 5: Remove duplicates (simple way: use another vector and check existence).
+Full Problems from Sites:
+HackerRank: “Vector-Sort” – Read n, push into vector, sort with sort(v.begin(), v.end()), print.
+Approach: Use vector<int> v; for(int i=0; i<n; i++){int x; cin>>x; v.push_back(x);} then sort and print.
+
+HackerRank: “Vector-Erase” – Practice erase operations (v.erase(v.begin()+i);, range erase).
+Approach: Follow exact instructions for erase queries.
+
+LeetCode: “Remove Duplicates from Sorted Array” (26) – Easy version with vector.
+Approach: Two pointers or use new vector.
+
+
+
+Homework/Review (45 minutes):
+Re-run all programs with large n (10^5) to see speed.
+Journal: 4 key points (e.g., “push_back is O(1) amortized”), 2 bugs encountered (e.g., “accessed v[ v.size() ] → out of bounds”).
+Extra: Solve Codeforces 1462A – “Favorite Sequence” (uses vector reverse and simple logic).
