@@ -1,1 +1,33 @@
+Day 7: Intensive Codeforces Practice + Review
+Objective: Apply all Week 2 knowledge in real contest-style problems.
 
+Review (1 hour): Go through journal, rewrite one program from each day.
+Practice (3 hours):
+Solve 15 problems total (rating 800–1000):
+Recommended list:
+50A – “Domino piling”
+263A – “Beautiful Matrix”
+266B – “Queue at the School”
+546A – “Soldier and Bananas”
+677A – “Vanya and Fence”
+734A – “Anton and Danik”
+110A – “Nearly Lucky Number”
+122A – “Lucky Division”
+148A – “Insomnia cure”
+155A – “I_love_%username%”
+
+
+For each wrong submission: read editorial, understand mistake, rewrite correctly.
+
+Analysis (45 minutes):
+Journal: What topics were used? Common time-wasters? New tricks learned?
+Goal: Successfully solve at least 12 out of 15.
+
+
+Week 2 Milestone:
+
+Comfortable with vectors, pairs, sorting, functions with references.
+Solved 40–50 problems total so far.
+Ready for greedy algorithms and more data structures in Week 3.
+
+Keep the momentum – you’re building the core toolkit for competitive programming!
