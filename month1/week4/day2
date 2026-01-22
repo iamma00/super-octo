@@ -1,1 +1,24 @@
+Day 2: Advanced Greedy + Greedy with Two Pointers / Binary Search
+Objective: Tackle harder greedy that requires sorting + additional logic.
 
+Theory (1 hour)
+Greedy + two pointers
+Greedy + binary search on answer (minimize maximum type)
+Proof sketches (why this greedy is correct)
+
+Practice (3–4 hours)
+Codeforces problems (1200–1400 greedy):
+1367B — Even Array
+1451A — Subtract or Divide
+1520B — Same Parity Summands
+1632A — ABC (very recent style)
+2176C — Circles Are Far from Each Other (~1300, recent)
+2169C — Recent problem (~1300, greedy flavor)
+2181B — Yet Another MEX Problem (1400-ish greedy)
+1825B — Make It Increasing (classic minimize max diff)
+2144B — Maximum Cost Permutation (greedy construction)
+
+
+Homework/Review
+Pick one wrong submission → read editorial → rewrite
+Journal: "What made me think greedy won't work here?"
