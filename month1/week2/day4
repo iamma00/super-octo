@@ -1,1 +1,19 @@
+Day 4: Recursion Basics
+Objective: Understand recursion – crucial for later DP and tree problems.
 
+Theory (1.5 hours):
+Base case + recursive case.
+Stack overflow risk (keep depth small initially).
+Examples: factorial, Fibonacci, power.
+Read: GeeksforGeeks “Recursion in C++”.
+
+Practice (2–3 hours):
+Program 1: Recursive factorial.
+Program 2: Recursive power(x,n).
+Program 3: Print numbers 1 to n recursively.
+Full Problems:
+LeetCode: “Fibonacci Number” (509) – Recursive (accept slow).
+Codeforces: 118A – “String Task” (can be iterative, but practice recursion elsewhere).
+
+
+Homework/Review: Draw recursion tree for factorial(4).
