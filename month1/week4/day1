@@ -1,1 +1,29 @@
+Day 1: Greedy Fundamentals + Sorting-based Greedy
+Objective: Understand when & why greedy works + classic sorting greedy patterns.
 
+Theory (1–1.5 hours)
+Greedy choice property & optimal substructure
+Common greedy patterns:
+• Sort + take best/worst
+• Interval scheduling
+• Fractional knapsack style (but integer version)
+• Minimize maximum / maximize minimum
+When greedy fails (counterexamples)
+Read: GeeksforGeeks "Greedy Algorithms" + "Activity Selection Problem"
+
+Practice (2.5–3.5 hours)
+Classic warm-up: Activity Selection (sort by end time)
+Codeforces problems (1000–1300):
+230A — DragonsApproach: Sort dragons by strength, try to defeat in order, accumulate bonus
+158B — TaxiApproach: Greedy grouping of 1,2,3,4 people into taxis
+1374C — Move Brackets (constructive greedy)
+1360B — Honest Coach (already did — revisit)
+1328A — Divisibility Problem
+791A — Bear and Big Brother (simple loop greedy)
+996A — Hit the Lottery (classic greedy coins)
+1342A — Greatest Convex (2025+ similar style)
+
+
+Homework/Review (45 min)
+Journal: List 5 greedy patterns seen today
+Solve 3–4 more from greedy tag 1100–1300 if time
