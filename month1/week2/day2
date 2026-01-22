@@ -1,1 +1,29 @@
+Day 2: Pairs and Sorting Basics
+Objective: Learn pair<int,int> and basic sorting – essential for many problems.
 
+Theory (1–1.5 hours):
+Include: #include <utility> (usually included with others).
+Declaration: pair<int,int> p = {1,2}; or make_pair(1,2);
+Access: p.first, p.second
+Vector of pairs: vector<pair<int,int>> vp;
+Sorting: sort(v.begin(), v.end()); works for vectors of int, pair (sorts by first, then second), strings.
+Custom sort: lambda or comparator (intro only).
+Read: GeeksforGeeks “Pair in C++ STL” and “Sort in C++ STL”.
+Video: Search “C++ pair and sorting”.
+
+Practice (2–3 hours):
+Program 1: Create vector<pair<int,int>>, push several pairs, print.
+Program 2: Sort vector of integers (ascending and descending with greater<int>()).
+Program 3: Sort vector of pairs by first ascending, then second descending.
+Program 4: Read n points (x,y), sort by x.
+Full Problems:
+Codeforces: 1360A – “Minimal Square” – Use pair or simple math.
+Approach: Given a,b → side = max(2*min(a,b), max(a,b)).
+
+Codeforces: 158A – “Next Round” – Simple vector + sort optional.
+LeetCode: “Sort Array By Parity” (905) – Easy sorting practice.
+
+
+Homework/Review:
+Journal sorting rules for pairs.
+Extra: Codeforces 112A – “Petya and Strings” (case-insensitive compare).
