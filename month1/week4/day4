@@ -1,1 +1,21 @@
+Day 4: DFS Basics + Connected Components
+Objective: Learn DFS (recursive & stack) + find connected components.
 
+Theory (1–1.5 hours)
+DFS recursive vs iterative
+Visited array importance (avoid cycles)
+Applications: connected components, cycle detection (intro)
+BFS vs DFS comparison
+
+Practice (2.5–3 hours)
+Program 1: Recursive DFS print nodes
+Program 2: Count connected components
+Codeforces problems:
+58A — Chat room (simple string → graph thinking)
+266B — Queue at the School (simulation)
+More easy graph: 734A — Anton and Danik (counting)
+Try 155A — I_love_%username% (simple max tracking)
+
+
+Homework
+Write DFS + BFS templates side by side
