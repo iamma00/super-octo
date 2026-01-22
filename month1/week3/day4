@@ -1,1 +1,20 @@
+Day 4: Time Complexity and Optimization
+Objective: Learn to analyze and improve solution speed.
 
+Theory (1.5 hours):
+Big-O notation: O(1), O(log n), O(n), O(n log n), O(n²)
+Loop analysis: Nested loops → O(n²)
+Common pitfalls: TLE (Time Limit Exceeded) when n=10^5 and O(n²)
+Optimization: Use fast input, avoid unnecessary operations
+Read: GeeksforGeeks “Time Complexity Analysis”
+
+Practice (2 hours):
+Program 1: Compare O(n²) vs O(n log n) by timing (use clock())
+Program 2: Optimize prime check using sieve
+Full Problems:
+Codeforces: 231A – “Team” (simple, but think about time)
+Codeforces: 136A – “Presents” (O(n))
+
+
+Homework/Review:
+Analyze time complexity of previous problems
