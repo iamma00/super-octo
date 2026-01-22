@@ -1,1 +1,18 @@
+Day 6: Integration Day – Using Vectors, Pairs, Sorting Together
+Objective: Combine everything learned.
 
+Practice (3–4 hours):
+Solve 8–10 Codeforces problems 800–900 rated using vectors:
+71A – “Way Too Long Words”
+281A – “Word Capitalization”
+467A – “George and Accommodation”
+617A – “Elephant”
+791A – “Bear and Big Brother”
+996A – “Hit the Lottery”
+1328A – “Divisibility Problem”
+1352A – “Sum of Round Numbers”
+
+
+Approach Tips:
+Most are simple math/implementation.
+Use vectors when input size varies.
