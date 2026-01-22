@@ -1,1 +1,24 @@
+Day 3: Graph Representation & BFS Introduction
+Objective: Learn how to represent graphs + implement BFS (shortest path in unweighted graph).
 
+Theory (1.5 hours)
+Graph types: undirected/directed, weighted/unweighted
+Adjacency list: vector<vector<int>> adj(n+1);
+BFS: queue, visited array, level/distance
+Applications: shortest path, connected components
+Read: GeeksforGeeks "BFS Traversal in Graph"
+
+Practice (2.5–3 hours)
+Program 1: Build undirected graph from edges
+Program 2: BFS to find distance from node 1 to all
+Codeforces problems (1000–1300 graphs):
+263A — Beautiful Matrix (simple manhattan, but graph flavor)
+50A — Domino Piling (simple graph thinking)
+1549B — Gregor and the Pawn Game (very easy graph)
+1944A — Destroying Bridges (graph + greedy)
+939A — Love Triangle (cycle detection simple)
+
+
+Homework/Review
+Draw graph for 2–3 problems on paper
+Implement BFS template (keep it for future)
