@@ -1,1 +1,27 @@
+Day 1: Sorting Algorithms (Focus on std::sort)
+Objective: Understand why sorting is powerful and master the built-in sorting function.
 
+Theory (1–1.5 hours):
+Why sort? Many problems become easier after sorting (e.g., finding duplicates, two-pointer techniques).
+Built-in sort: sort(arr.begin(), arr.end()); or sort(v.begin(), v.end(), greater<int>());
+Time complexity: O(n log n) average/worst case
+Comparison-based vs non-comparison (we'll stick to std::sort)
+Sorting custom types: pairs, structs with comparator
+Read: GeeksforGeeks “std::sort() in C++” and “Sorting Algorithms” (focus on quicksort intro)
+
+Practice (2–3 hours):
+Program 1: Sort vector of ints ascending and descending
+Program 2: Sort vector of pairs by first ascending, second descending
+Program 3: Sort array of structs {name, score}
+Program 4: Count frequency after sorting (group same elements)
+Full Problems from Sites:
+Codeforces: 1360B – “Honest Coach”
+Approach: Sort the array, find minimum difference between consecutive elements
+Ways to deal: Use vector<int>, sort, iterate i=1 to n-1, track min diff
+Codeforces: 1328B – “Divisibility Problem” (sort optional but useful)
+HackerRank: “Closest Numbers” – Sort and find min difference
+
+
+Homework/Review (45 minutes):
+Journal: Explain why std::sort is O(n log n), when to use custom comparator
+Extra: Codeforces 451A – “Games” (simple sort + count)
