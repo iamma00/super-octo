@@ -1,1 +1,20 @@
+Day 3: Functions (Advanced) – Parameters, Return, Overloading
+Objective: Deepen understanding of functions – pass by reference, multiple returns via pair.
 
+Theory (1.5 hours):
+Pass by value vs reference (&).
+Returning multiple values: return pair or use reference parameters.
+Function overloading (same name, different params).
+Default arguments (rare in CP).
+Read: GeeksforGeeks “Functions in C++” advanced part.
+
+Practice (2–3 hours):
+Program 1: Swap two numbers using reference.
+Program 2: Function that returns pair {min, max} of two numbers.
+Program 3: Overloaded function for sum of 2 and 3 integers.
+Full Problems:
+HackerRank: “Functions” (already done, revisit).
+Codeforces: 231A – “Team” – Simple function to count solvable problems.
+
+
+Homework/Review: Refactor Week 1 code to use functions properly.
